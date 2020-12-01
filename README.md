@@ -1,14 +1,14 @@
 # IBM Quantum Awards: Open Science Prize
 
-This is the repository for the IBM Quantum Awards: Open Science Prize. You can read more about it [here](https://www.ibmquantumawards.com/), and the corresponding IBM Quantum announcement [here](https://www.ibm.com/blogs/research/2020/11/open-science-prize/).
+This is the repository for the IBM Quantum Awards: Open Science Prize. You can read more about it and register [here](https://www.ibmquantumawards.com/), and read the IBM Quantum announcement [here](https://www.ibm.com/blogs/research/2020/11/open-science-prize/).
 
 # Objective
 
 The IBM Quantum Awards: Open Science Prize aims to solve two problems at the forefront of quantum computation based on superconducting qubits:
 
-1. **Creating better SWAP gates** Typically, [SWAP](https://qiskit.org/textbook/ch-gates/more-circuit-identities.html#2.-Swapping-Qubits-) gates are implemented using three controlled-NOT (CNOT or CX) gates. This can be expensive, as the limiting gate error comes from the 2-qubit gates. The goal here is to reduce the infidelity of a SWAP gate by 50% compared with a traditional SWAP implemented using three standard CNOT gates, as estimated using randomized benchmarking techniques outlined in [this Jupyter notebook](ibmquantum-swap-gate-challenge.ipynb). **Award: $50000**
+1. **Creating better SWAP gates** Typically, [SWAP](https://qiskit.org/textbook/ch-gates/more-circuit-identities.html#2.-Swapping-Qubits-) gates are implemented using three controlled-NOT (CNOT or CX) gates. This can be expensive, as the limiting gate error comes from the 2-qubit gates. The goal here is to create the best SWAP gate with a reduction in the infidelity of at least 50% compared with a traditional SWAP implemented using three standard CNOT gates, as estimated using randomized benchmarking techniques outlined in [this Jupyter notebook](ibmquantum-swap-gate-challenge.ipynb). **Award: $50,000**
 
-2. **Creating larger graph states with better fidelity** Graph states entangle all involved qubits, and these entangled quantum states could be important for various applications, particularly those related to error correction, in the near future. The goal here is to create the largest graph states using the same benchmarking and error mitigation techniques that are also used to improve the individual quantum gates, ultimately looking for the best fidelity graph state as estimated by stabilizer measurements outlined in [this Jupyter notebook](ibmquantum-graph-states-challenge). **Award: $50000**
+2. **Creating larger graph states with better fidelity** Graph states entangle all involved qubits, and these entangled quantum states could be important for various applications, particularly those related to error correction, in the near future. The goal here is to create the largest graph states using the same benchmarking and error mitigation techniques that are also used to improve the individual quantum gates, ultimately looking for the best fidelity graph state with at least a 50% reduction in the infidelity as estimated by stabilizer measurements outlined in [this Jupyter notebook](ibmquantum-graph-states-challenge.ipynb). **Award: $50,000**
 
 # Open Science
 
